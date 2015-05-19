@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>emefana Sample Form1</title>
+</head>
+	<h:body>
+		<h:form>
+		    <p:panel id="panel" header="Sample Form1" style="margin-bottom:10px;">
+		        <p:messages id="messages" />
+		 
+		        <h:panelGrid columns="4" cellpadding="5">
+		            <h:outputLabel for="txt1" value="Text 1: *" />
+		            <p:inputText id="txt1" value="#{selectorView.text1}" required="true" label="Form Text 1">
+		                <f:validateLength minimum="2" />
+		            </p:inputText>
+		            <p:message for="txt1" />
+		            <h:outputText value="#{selectorView.text1}" />
+		 
+		            <h:outputLabel for="txt2" value="Text 2: *" />
+		            <p:inputText id="txt2" value="#{selectorView.text2}" required="true" label="Form Text 2" />
+		            <p:message for="txt2" />
+		            <h:outputText value="#{selectorView.text2}" />
+		            
+		            <p:commandButton value="Submit Form" action = "#{selectorView.result}" />
+	 
+		        </h:panelGrid>
+		    </p:panel>
+		 
+		  </h:form>
+	</h:body> 
+		
+</html>
