@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 @Service
 public class HomeService implements IHomeService{
@@ -15,6 +16,10 @@ public class HomeService implements IHomeService{
 		return members;
 	}
 	
-	
+	public void membersList(){
+		RestTemplate restfulTemp = new RestTemplate();
+		String result = restfulTemp.getForObject("/url", String.class);
+		//work with result
+	}
 	
 }  
