@@ -45,6 +45,13 @@ public class Provider {
 	@JsonIgnore
 	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
+	
+	public Provider(String id, String name, String busDesc, Boolean isActive){
+		this.providerId = id;
+		this.providerName = name;
+		this.businessDescription = busDesc;
+		this.providerActive = isActive;
+	}
 	/**
 	 * 
 	 * @return The providerId

@@ -7,7 +7,11 @@ import org.springframework.stereotype.Component;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+
 import java.io.Serializable;
+
+import lombok.Getter;
+import lombok.Setter;
 
 
 /**
@@ -18,22 +22,9 @@ import java.io.Serializable;
 @Scope("request")
 public class FileUploadBean implements Serializable{
 
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
-	private UploadedFile file;
+	@Setter @Getter private UploadedFile file;
 	
-
-    public UploadedFile getFile() {
-        return file;
-    }
-
-    public void setFile(UploadedFile file) {
-        this.file = file;
-    }
-
-
     public String handleFileUpload(FileUploadEvent fileUploadEvent){
         this.file = fileUploadEvent.getFile();
         if (file!=null)

@@ -36,7 +36,7 @@ public class ProviderAddress {
 	/**
 	 * 
 	 * @param street
-	 *            The street
+	 * The street
 	 */
 	@JsonProperty("street")
 	public void setStreet(String street) {
@@ -55,7 +55,7 @@ public class ProviderAddress {
 	/**
 	 * 
 	 * @param streetLine2
-	 *            The streetLine2
+	 *  The streetLine2
 	 */
 	@JsonProperty("streetLine2")
 	public void setStreetLine2(Object streetLine2) {
@@ -74,7 +74,7 @@ public class ProviderAddress {
 	/**
 	 * 
 	 * @param city
-	 *            The city
+	 * The city
 	 */
 	@JsonProperty("city")
 	public void setCity(City city) {
