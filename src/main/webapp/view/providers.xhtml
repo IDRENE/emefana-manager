@@ -11,23 +11,38 @@
 		<title>PROVIDER MANAGEMENT</title>
 	</h:head>
 	<h:body>
-		<p:dataTable var="provider" value="#{providerController.providerList}">
-			<p:column headerText="PROVIDER ID">
-				<h:outputText value="#{provider.providerId}" />
-			</p:column>
+		<h:head>#{providerController.providerHome}</h:head>
+		<br />
+		Administrators: #{providerController.members}
+		<br />
+		<h:form>
+			<p:dataTable var="provider"
+				value="#{providerController.providerList}">
+				<p:column headerText="PROVIDER NAME">
+					<h:outputText value="#{provider.providerName}" />
+				</p:column>
 
-			<p:column headerText="PROVIDER NAME">
-				<h:outputText value="#{provider.providerName}" />
-			</p:column>
+				<p:column headerText="PROVIDER ADDRESS">
+					<h:outputText value="#{provider.providerAddress.street} - #{provider.providerAddress.city.cid}" />
+				</p:column>
 
-			<p:column headerText="PROVIDER DESCRIPTION">
-				<h:outputText value="#{provider.businessDescription}" />
-			</p:column>
+				<p:column headerText="PROVIDER DESCRIPTION">
+					<h:outputText value="#{provider.businessDescription}" />
+				</p:column>
 
-			<p:column headerText="PROVIDER STATUS">
-				<h:outputText value="#{provider.providerActive}" />
-			</p:column>
-		</p:dataTable>
+				<p:column headerText="STATUS">
+					<h:outputText rendered="#{provider.providerActive==true}" value="Active" />
+					<h:outputText rendered="#{provider.providerActive==false}" value="InActive" />
+				</p:column>
+				<p:column headerText="ACTION">
+					<h:commandLink
+						action="#{providerController.changeStatus(provider)}">
+						<h:outputLabel rendered="#{provider.providerActive==false}">Activate</h:outputLabel>
+						<h:outputLabel rendered="#{provider.providerActive==true}">Diactivate</h:outputLabel>
+					</h:commandLink>
+				</p:column>
+			</p:dataTable>
+		</h:form>
 	</h:body>
 </f:view>
 </html>

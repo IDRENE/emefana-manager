@@ -1,0 +1,82 @@
+{
+     "providerId": "726fca4c-7ce5-466a-9234-2bd021a6de3c",
+     "providerName": "Another Listing II",
+     "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
+     "providerActive": false,
+     "registereDate": {
+         "year": 2015,
+         "month": "MAY",
+         "dayOfMonth": 18,
+         "dayOfWeek": "MONDAY",
+         "era": "CE",
+         "dayOfYear": 138,
+         "leapYear": false,
+         "monthValue": 5,
+         "chronology": {
+             "id": "ISO",
+             "calendarType": "iso8601"
+         }
+     },
+     "providerLocation": [
+         37.595054999999995,
+         -77.5980135
+     ],
+     "providerAddress": {
+         "street": "ASasasa",
+         "streetLine2": null,
+         "city": {
+             "cid": "Mwanza",
+             "region": "Mwanza",
+             "country": "Tanzania",
+             "location": [
+                 32.9,
+                 -2.516667
+             ]
+         }
+     },
+     "providerServices": [
+         {
+             "serviceId": "offer",
+             "description": ""
+         },
+         {
+             "serviceId": "shelf",
+             "description": ""
+         }
+     ],
+     "providerFeatures": [
+         {
+             "name": "features",
+             "description": [
+                 "feta 1"
+             ]
+         }
+     ],
+     "providerVenues": [],
+     "providerCategories": [
+         {
+             "type": "Bridal Salons"
+         }
+     ],
+     "providerEvents": [
+         {
+             "eventId": "Theme Parties",
+             "description": "events that devote to a special topic. Popular events are casino nights or Halloween parties. Ideas and planning tips"
+         },
+         {
+             "eventId": "VIP Events",
+             "description": " are used to increase customer loyalty. Professional planners organizing VIP events that ultimately increase your revenues"
+         }
+     ],
+     "_links": {
+         "self": {
+             "href": "http://localhost:8080/api/providers/726fca4c-7ce5-466a-9234-2bd021a6de3c"
+         },
+         "users": {
+             "href": "http://localhost:8080/api/providers/726fca4c-7ce5-466a-9234-2bd021a6de3c/users"
+         },
+         "activation": {
+             "href": "http://localhost:8080/api/providers/726fca4c-7ce5-466a-9234-2bd021a6de3c/activate"
+         }
+     }
+ }

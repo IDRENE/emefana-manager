@@ -1,0 +1,393 @@
+[
+             {
+                 "providerId": "225851ea-35aa-48e6-ab59-da79a0fb5f74",
+                 "providerName": "Bunda 4",
+                 "businessDescription": "eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours",
+                 "providerActive": false,
+                 "registereDate": {
+                     "year": 2015,
+                     "month": "MAY",
+                     "dayOfMonth": 12,
+                     "dayOfWeek": "TUESDAY",
+                     "era": "CE",
+                     "dayOfYear": 132,
+                     "leapYear": false,
+                     "monthValue": 5,
+                     "chronology": {
+                         "id": "ISO",
+                         "calendarType": "iso8601"
+                     }
+                 },
+                 "providerLocation": [
+                     37.595083599999995,
+                     -77.59801910000002
+                 ],
+                 "providerAddress": {
+                     "street": "gewywetwef",
+                     "streetLine2": "uuuuuu",
+                     "city": {
+                         "cid": "Sumbawanga",
+                         "region": "Rukwa",
+                         "country": "Tanzania",
+                         "location": [
+                             31.616667,
+                             -7.966667
+                         ]
+                     }
+                 },
+                 "providerServices": [
+                     {
+                         "serviceId": "flashy"
+                     },
+                     {
+                         "serviceId": "handsomely"
+                     },
+                     {
+                         "serviceId": "rampant"
+                     },
+                     {
+                         "serviceId": "snobbish"
+                     },
+                     {
+                         "serviceId": "lunch"
+                     },
+                     {
+                         "serviceId": "contain"
+                     },
+                     {
+                         "serviceId": "squeal"
+                     }
+                 ],
+                 "providerFeatures": [
+                     {
+                         "name": "feature1",
+                         "description": [
+                             "description one",
+                             "description ywo"
+                         ]
+                     }
+                 ],
+                 "providerVenues": [
+                     {
+                         "name": "A",
+                         "capacity": 300,
+                         "price": {
+                             "price": 2376,
+                             "currency": "TZS"
+                         }
+                     }
+                 ],
+                 "providerCategories": [
+                     {
+                         "type": "Venues"
+                     }
+                 ],
+                 "providerEvents": [
+                     {
+                         "eventId": "Seminars"
+                     },
+                     {
+                         "eventId": "Meetings"
+                     },
+                     {
+                         "eventId": "Golf Events"
+                     },
+                     {
+                         "eventId": "Board Meetings"
+                     },
+                     {
+                         "eventId": "Team Building Events"
+                     },
+                     {
+                         "eventId": "Press Conferences"
+                     },
+                     {
+                         "eventId": "Conferences"
+                     },
+                     {
+                         "eventId": "Incentive Events"
+                     },
+                     {
+                         "eventId": "Business Dinners"
+                     },
+                     {
+                         "eventId": "Weddings"
+                     },
+                     {
+                         "eventId": "Award Ceremonies"
+                     },
+                     {
+                         "eventId": "Executive Retreats"
+                     },
+                     {
+                         "eventId": "Theme Parties"
+                     },
+                     {
+                         "eventId": "Trade Fairs"
+                     },
+                     {
+                         "eventId": "Shareholder Meetings"
+                     },
+                     {
+                         "eventId": "VIP Events"
+                     },
+                     {
+                         "eventId": "Wedding Anniversaries"
+                     },
+                     {
+                         "eventId": "Networking Events"
+                     },
+                     {
+                         "eventId": "Family Events"
+                     },
+                     {
+                         "eventId": "Opening Ceremonies"
+                     },
+                     {
+                         "eventId": "Incentive Travel"
+                     },
+                     {
+                         "eventId": "Product Launches"
+                     },
+                     {
+                         "eventId": "birthday events"
+                     },
+                     {
+                         "eventId": "Trade Shows"
+                     }
+                 ],
+                 "_links": {
+                     "self": {
+                         "href": "http://localhost:8080/api/providers/225851ea-35aa-48e6-ab59-da79a0fb5f74"
+                     },
+                     "users": {
+                         "href": "http://localhost:8080/api/providers/225851ea-35aa-48e6-ab59-da79a0fb5f74/users"
+                     }
+                 }
+             },
+             {
+                 "providerId": "54714d42-efc9-48ec-8979-e7981181faee",
+                 "providerName": "Another Listing",
+                 "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
+                 "providerActive": false,
+                 "registereDate": {
+                     "year": 2015,
+                     "month": "MAY",
+                     "dayOfMonth": 18,
+                     "dayOfWeek": "MONDAY",
+                     "era": "CE",
+                     "dayOfYear": 138,
+                     "leapYear": false,
+                     "monthValue": 5,
+                     "chronology": {
+                         "id": "ISO",
+                         "calendarType": "iso8601"
+                     }
+                 },
+                 "providerLocation": [
+                     37.595054999999995,
+                     -77.5980135
+                 ],
+                 "providerAddress": {
+                     "street": "ASasasa",
+                     "streetLine2": null,
+                     "city": {
+                         "cid": "Mwanza",
+                         "region": "Mwanza",
+                         "country": "Tanzania",
+                         "location": [
+                             32.9,
+                             -2.516667
+                         ]
+                     }
+                 },
+                 "providerServices": [
+                     {
+                         "serviceId": "offer"
+                     },
+                     {
+                         "serviceId": "shelf"
+                     }
+                 ],
+                 "providerFeatures": [
+                     {
+                         "name": "features",
+                         "description": [
+                             "feta 1"
+                         ]
+                     }
+                 ],
+                 "providerVenues": [],
+                 "providerCategories": [
+                     {
+                         "type": "Bridal Salons"
+                     }
+                 ],
+                 "providerEvents": [
+                     {
+                         "eventId": "Theme Parties"
+                     },
+                     {
+                         "eventId": "VIP Events"
+                     }
+                 ],
+                 "_links": {
+                     "self": {
+                         "href": "http://localhost:8080/api/providers/54714d42-efc9-48ec-8979-e7981181faee"
+                     },
+                     "users": {
+                         "href": "http://localhost:8080/api/providers/54714d42-efc9-48ec-8979-e7981181faee/users"
+                     }
+                 }
+             },
+             {
+                 "providerId": "38274408-67ff-48b7-9843-f2cc459b1084",
+                 "providerName": "adasdasd",
+                 "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
+                 "providerActive": false,
+                 "registereDate": {
+                     "year": 2015,
+                     "month": "MAY",
+                     "dayOfMonth": 18,
+                     "dayOfWeek": "MONDAY",
+                     "era": "CE",
+                     "dayOfYear": 138,
+                     "leapYear": false,
+                     "monthValue": 5,
+                     "chronology": {
+                         "id": "ISO",
+                         "calendarType": "iso8601"
+                     }
+                 },
+                 "providerLocation": [
+                     37.595054999999995,
+                     -77.5980135
+                 ],
+                 "providerAddress": {
+                     "street": "ASasasa",
+                     "streetLine2": null,
+                     "city": {
+                         "cid": "Mwanza",
+                         "region": "Mwanza",
+                         "country": "Tanzania",
+                         "location": [
+                             32.9,
+                             -2.516667
+                         ]
+                     }
+                 },
+                 "providerServices": [
+                     {
+                         "serviceId": "offer"
+                     },
+                     {
+                         "serviceId": "shelf"
+                     }
+                 ],
+                 "providerFeatures": [
+                     {
+                         "name": "features",
+                         "description": [
+                             "feta 1"
+                         ]
+                     }
+                 ],
+                 "providerVenues": [],
+                 "providerCategories": [
+                     {
+                         "type": "Bridal Salons"
+                     }
+                 ],
+                 "providerEvents": [
+                     {
+                         "eventId": "Theme Parties"
+                     },
+                     {
+                         "eventId": "VIP Events"
+                     }
+                 ],
+                 "_links": {
+                     "self": {
+                         "href": "http://localhost:8080/api/providers/38274408-67ff-48b7-9843-f2cc459b1084"
+                     },
+                     "users": {
+                         "href": "http://localhost:8080/api/providers/38274408-67ff-48b7-9843-f2cc459b1084/users"
+                     }
+                 }
+             },
+             {
+                 "providerId": "726fca4c-7ce5-466a-9234-2bd021a6de3c",
+                 "providerName": "Another Listing II",
+                 "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
+                 "providerActive": false,
+                 "registereDate": {
+                     "year": 2015,
+                     "month": "MAY",
+                     "dayOfMonth": 18,
+                     "dayOfWeek": "MONDAY",
+                     "era": "CE",
+                     "dayOfYear": 138,
+                     "leapYear": false,
+                     "monthValue": 5,
+                     "chronology": {
+                         "id": "ISO",
+                         "calendarType": "iso8601"
+                     }
+                 },
+                 "providerLocation": [
+                     37.595054999999995,
+                     -77.5980135
+                 ],
+                 "providerAddress": {
+                     "street": "ASasasa",
+                     "streetLine2": null,
+                     "city": {
+                         "cid": "Mwanza",
+                         "region": "Mwanza",
+                         "country": "Tanzania",
+                         "location": [
+                             32.9,
+                             -2.516667
+                         ]
+                     }
+                 },
+                 "providerServices": [
+                     {
+                         "serviceId": "offer"
+                     },
+                     {
+                         "serviceId": "shelf"
+                     }
+                 ],
+                 "providerFeatures": [
+                     {
+                         "name": "features",
+                         "description": [
+                             "feta 1"
+                         ]
+                     }
+                 ],
+                 "providerVenues": [],
+                 "providerCategories": [
+                     {
+                         "type": "Bridal Salons"
+                     }
+                 ],
+                 "providerEvents": [
+                     {
+                         "eventId": "Theme Parties"
+                     },
+                     {
+                         "eventId": "VIP Events"
+                     }
+                 ],
+                 "_links": {
+                     "self": {
+                         "href": "http://localhost:8080/api/providers/726fca4c-7ce5-466a-9234-2bd021a6de3c"
+                     },
+                     "users": {
+                         "href": "http://localhost:8080/api/providers/726fca4c-7ce5-466a-9234-2bd021a6de3c/users"
+                     }
+                 }
+             }
+]
