@@ -23,16 +23,27 @@
 				</p:column>
 
 				<p:column headerText="PROVIDER ADDRESS">
-					<h:outputText value="#{provider.providerAddress.street} - #{provider.providerAddress.city.cid}" />
+					<h:outputText
+						value="#{provider.providerAddress.street} - #{provider.providerAddress.city.cid}" />
 				</p:column>
 
 				<p:column headerText="PROVIDER DESCRIPTION">
 					<h:outputText value="#{provider.businessDescription}" />
 				</p:column>
 
+				<p:column headerText="PROVIDER LINKS">
+					<ul>
+						<ui:repeat value="#{provider.link}" var="link">
+							<li><h:outputText value="#{link}"/></li>
+						</ui:repeat>
+					</ul>
+				</p:column>
+
 				<p:column headerText="STATUS">
-					<h:outputText rendered="#{provider.providerActive==true}" value="Active" />
-					<h:outputText rendered="#{provider.providerActive==false}" value="InActive" />
+					<h:outputText rendered="#{provider.providerActive==true}"
+						value="Active" />
+					<h:outputText rendered="#{provider.providerActive==false}"
+						value="InActive" />
 				</p:column>
 				<p:column headerText="ACTION">
 					<h:commandLink

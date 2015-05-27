@@ -3,8 +3,8 @@ package com.idrene.emefana.manager.model;
 import lombok.Getter;
 import lombok.Setter;
 
-public class ProviderCategory {
+public class Link {
 
-	@Setter @Getter private String type;
+	@Setter @Getter private String self;
 
 }

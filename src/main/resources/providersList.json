@@ -4,7 +4,7 @@
                  "providerName": "Bunda 4",
                  "businessDescription": "eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours eventual leader in this category of ours",
                  "providerActive": false,
-                 "registereDate": {
+                 "registeredDate": {
                      "year": 2015,
                      "month": "MAY",
                      "dayOfMonth": 12,
@@ -170,7 +170,7 @@
                  "providerName": "Another Listing",
                  "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
                  "providerActive": false,
-                 "registereDate": {
+                 "registeredDate": {
                      "year": 2015,
                      "month": "MAY",
                      "dayOfMonth": 18,
@@ -245,7 +245,7 @@
                  "providerName": "adasdasd",
                  "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
                  "providerActive": false,
-                 "registereDate": {
+                 "registeredDate": {
                      "year": 2015,
                      "month": "MAY",
                      "dayOfMonth": 18,
@@ -320,7 +320,7 @@
                  "providerName": "Another Listing II",
                  "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
                  "providerActive": false,
-                 "registereDate": {
+                 "registeredDate": {
                      "year": 2015,
                      "month": "MAY",
                      "dayOfMonth": 18,

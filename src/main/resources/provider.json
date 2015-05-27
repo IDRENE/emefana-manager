@@ -3,7 +3,7 @@
      "providerName": "Another Listing II",
      "businessDescription": "This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.This page is for adding new listings. To update or manage an existing listing, please visit the\nE-mefana Control Center\n\nIf you're looking for more help or have a question to ask, please contact us.",
      "providerActive": false,
-     "registereDate": {
+     "registeredDate": {
          "year": 2015,
          "month": "MAY",
          "dayOfMonth": 18,
@@ -68,7 +68,7 @@
              "description": " are used to increase customer loyalty. Professional planners organizing VIP events that ultimately increase your revenues"
          }
      ],
-     "_links": {
+     "links": {
          "self": {
              "href": "http://localhost:8080/api/providers/726fca4c-7ce5-466a-9234-2bd021a6de3c"
          },

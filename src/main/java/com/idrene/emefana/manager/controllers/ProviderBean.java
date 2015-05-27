@@ -28,8 +28,8 @@ public class ProviderBean {
 	}
 	
 	public List<Provider> getProviderList(){
-		//return providerService.providerListFromApi();
-		return providerService.jsonToJavaListProviders();
+		return providerService.providerListFromApi();
+		//return providerService.jsonToJavaListProviders();
 	}
 	
 	//for activation of member or de-activation
