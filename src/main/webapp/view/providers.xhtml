@@ -31,14 +31,6 @@
 					<h:outputText value="#{provider.businessDescription}" />
 				</p:column>
 
-				<p:column headerText="PROVIDER LINKS">
-					<ul>
-						<ui:repeat value="#{provider.link}" var="link">
-							<li><h:outputText value="#{link}"/></li>
-						</ui:repeat>
-					</ul>
-				</p:column>
-
 				<p:column headerText="STATUS">
 					<h:outputText rendered="#{provider.providerActive==true}"
 						value="Active" />

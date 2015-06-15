@@ -3,12 +3,15 @@ package com.idrene.emefana.manager.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import lombok.Getter;
 import lombok.Setter;
 
-@JsonIgnoreProperties(ignoreUnknown=true)
+import org.codehaus.jackson.annotate.JsonAutoDetect;
+import org.codehaus.jackson.annotate.JsonAutoDetect.Visibility;
+
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 public class Provider {
 
 	@Setter @Getter private String providerId;
@@ -33,5 +36,5 @@ public class Provider {
 		this.businessDescription = busDesc;
 		this.providerActive = isActive;
 	}
-	
+
 }
